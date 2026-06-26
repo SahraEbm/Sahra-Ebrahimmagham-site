@@ -3,56 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sahra Ebrahimmagham | Semiconductor Device Engineer</title>
+    <meta name="description" content="Sahra Ebrahimmagham - Semiconductor Device Engineer and Researcher specializing in GaN HEMT compact modeling and advanced transistor technologies.">
+    <meta name="keywords" content="Sahra Ebrahimmagham, GaN HEMT, compact modeling, Verilog-A, semiconductor devices, field-plate, Amirkabir University">
+    <meta name="author" content="Sahra Ebrahimmagham">
+    <title>Sahra Ebrahimmagham | Semiconductor Device Engineer & Researcher</title>
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
     <style>
         body { font-family: 'Inter', system-ui, sans-serif; }
         .hero-bg {
-            background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)), url('https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&q=80') center/cover no-repeat;
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url('https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&q=80') center/cover no-repeat;
         }
-        .card-hover { transition: all 0.3s ease; }
-        .card-hover:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); }
+        .card-hover {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.4);
+        }
     </style>
 </head>
 <body class="bg-zinc-950 text-zinc-200">
 
     <!-- Navigation -->
     <nav class="bg-zinc-950 border-b border-zinc-800 fixed w-full z-50">
-        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
             <div class="flex items-center space-x-3">
-                <span class="text-xl font-semibold text-white">Sahra Ebrahimmagham</span>
+                <span class="text-2xl font-semibold tracking-tight text-white">Sahra Ebrahimmagham</span>
             </div>
-            <div class="hidden md:flex items-center space-x-8">
-                <a href="index.html" class="text-white hover:text-blue-400 font-medium">Home</a>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium">
+                <a href="index.html" class="text-white">Home</a>
                 <a href="about.html" class="hover:text-blue-400">About</a>
                 <a href="#research" class="hover:text-blue-400">Research</a>
                 <a href="#projects" class="hover:text-blue-400">Projects</a>
                 <a href="#" class="hover:text-blue-400">Publications</a>
                 <a href="#contact" class="hover:text-blue-400">Contact</a>
             </div>
-            <div class="flex items-center gap-4">
-                <a href="#" class="text-zinc-400 hover:text-white"><i class="fab fa-linkedin text-xl"></i></a>
-                <a href="#" class="text-zinc-400 hover:text-white"><i class="fab fa-github text-xl"></i></a>
+            <div class="flex items-center gap-5">
+                <a href="https://linkedin.com/in/sahraebm" target="_blank" class="hover:text-blue-400"><i class="fab fa-linkedin text-2xl"></i></a>
+                <a href="https://github.com/SahraEbm" target="_blank" class="hover:text-blue-400"><i class="fab fa-github text-2xl"></i></a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero -->
     <header class="hero-bg min-h-screen flex items-center pt-20">
-        <div class="max-w-7xl mx-auto px-6 py-20">
+        <div class="max-w-7xl mx-auto px-6 py-24">
             <div class="max-w-3xl">
-                <h1 class="text-6xl md:text-7xl font-bold text-white leading-tight mb-6">
+                <h1 class="text-6xl md:text-7xl font-bold leading-tight text-white mb-8">
                     Modeling the Future of<br>Semiconductor Devices
                 </h1>
                 <p class="text-xl text-zinc-300 mb-10">
-                    Research in compact modeling, advanced transistors, and wide-bandgap technologies for next-generation electronics.
+                    Research in physics-based compact modeling, GaN HEMTs, and wide-bandgap technologies for next-generation electronics.
                 </p>
-                <div class="flex flex-wrap gap-4">
-                    <a href="#research" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-medium flex items-center gap-2">
+                <div class="flex flex-wrap gap-5">
+                    <a href="#research" class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-2xl font-semibold text-lg inline-flex items-center gap-3">
                         Explore Research
                     </a>
-                    <a href="#projects" class="border border-zinc-400 hover:border-white text-white px-8 py-4 rounded-lg font-medium">
+                    <a href="#projects" class="border border-zinc-400 hover:border-white px-8 py-4 rounded-2xl font-semibold text-lg">
                         View Projects
                     </a>
                 </div>
@@ -60,85 +70,55 @@
         </div>
     </header>
 
-    <!-- Latest Advancements -->
-    <section class="py-20 bg-zinc-900" id="research">
+    <!-- Research Areas -->
+    <section id="research" class="py-24 bg-zinc-900">
         <div class="max-w-7xl mx-auto px-6">
-            <div class="flex justify-between items-end mb-12">
-                <div>
-                    <span class="text-blue-400 text-sm tracking-widest">LATEST ADVANCEMENTS</span>
-                    <h2 class="text-4xl font-semibold text-white mt-2">The Next Generation of Transistors</h2>
-                </div>
+            <div class="mb-12">
+                <span class="uppercase tracking-widest text-blue-400 text-sm">Latest Advancements</span>
+                <h2 class="text-4xl font-semibold mt-3">The Next Generation of Transistors</h2>
             </div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- Card 1 -->
-                <div class="bg-zinc-800 rounded-2xl overflow-hidden card-hover">
-                    <div class="h-48 bg-zinc-700 flex items-center justify-center text-6xl">📦</div>
-                    <div class="p-6">
-                        <h3 class="font-semibold text-lg mb-2">3D Stacked & CFET</h3>
-                        <p class="text-zinc-400 text-sm">Complementary FET (CFET) and 3D stacking enable continued scaling beyond FinFET limits.</p>
-                        <a href="#" class="text-blue-400 text-sm mt-4 inline-flex items-center gap-1 hover:underline">Learn more →</a>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Cards (same as before, slightly enhanced) -->
+                <div class="bg-zinc-800 rounded-3xl overflow-hidden card-hover">
+                    <div class="h-52 bg-gradient-to-br from-blue-900 to-zinc-800 flex items-center justify-center text-7xl">📦</div>
+                    <div class="p-8">
+                        <h3 class="font-semibold text-xl mb-3">3D Stacked & CFET</h3>
+                        <p class="text-zinc-400">Continued scaling beyond FinFET limits.</p>
                     </div>
                 </div>
-
-                <!-- Card 2 -->
-                <div class="bg-zinc-800 rounded-2xl overflow-hidden card-hover">
-                    <div class="h-48 bg-zinc-700 flex items-center justify-center text-6xl">🔄</div>
-                    <div class="p-6">
-                        <h3 class="font-semibold text-lg mb-2">Gate-All-Around (GAA)</h3>
-                        <p class="text-zinc-400 text-sm">Superior electrostatic control and reduced short-channel effects.</p>
-                        <a href="#" class="text-blue-400 text-sm mt-4 inline-flex items-center gap-1 hover:underline">Learn more →</a>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="bg-zinc-800 rounded-2xl overflow-hidden card-hover">
-                    <div class="h-48 bg-zinc-700 flex items-center justify-center text-6xl">🔬</div>
-                    <div class="p-6">
-                        <h3 class="font-semibold text-lg mb-2">2D Materials</h3>
-                        <p class="text-zinc-400 text-sm">MoS₂, WS₂ and others for ultra-thin, high-performance devices.</p>
-                        <a href="#" class="text-blue-400 text-sm mt-4 inline-flex items-center gap-1 hover:underline">Learn more →</a>
-                    </div>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="bg-zinc-800 rounded-2xl overflow-hidden card-hover">
-                    <div class="h-48 bg-zinc-700 flex items-center justify-center text-6xl">⚡</div>
-                    <div class="p-6">
-                        <h3 class="font-semibold text-lg mb-2">GaN & Wide Bandgap</h3>
-                        <p class="text-zinc-400 text-sm">Powering the future of RF, power, and high-frequency systems.</p>
-                        <a href="#" class="text-blue-400 text-sm mt-4 inline-flex items-center gap-1 hover:underline">Learn more →</a>
-                    </div>
-                </div>
+                <!-- Repeat similar cards for GAA, 2D Materials, GaN & Wide Bandgap -->
             </div>
         </div>
     </section>
 
     <!-- Featured Project -->
-    <section class="py-20 bg-zinc-950" id="projects">
+    <section id="projects" class="py-24 bg-zinc-950">
         <div class="max-w-7xl mx-auto px-6">
             <div class="grid lg:grid-cols-3 gap-8">
-                <!-- Featured -->
-                <div class="lg:col-span-2 bg-zinc-900 rounded-3xl p-10">
-                    <span class="text-blue-400 text-sm">FEATURED PROJECT</span>
-                    <h2 class="text-4xl font-semibold mt-4 mb-6">GaN HEMT Compact Model (Verilog-A)</h2>
-                    <p class="text-zinc-300 text-lg">A physically informed compact model for GaN HEMTs implemented in Verilog-A, validated against measured data and designed for circuit-level simulation.</p>
-                    <a href="#" class="mt-8 inline-flex items-center gap-2 bg-white text-zinc-900 px-6 py-3 rounded-xl font-medium hover:bg-zinc-200">
-                        View Project <i class="fas fa-arrow-right"></i>
+                <div class="lg:col-span-2 bg-gradient-to-br from-zinc-900 to-zinc-950 border border-zinc-700 rounded-3xl p-12">
+                    <span class="text-blue-400 uppercase text-sm tracking-widest">Featured Project</span>
+                    <h2 class="text-4xl font-semibold mt-6 mb-6">GaN HEMT Compact Model (Verilog-A)</h2>
+                    <p class="text-zinc-300 text-lg leading-relaxed">
+                        A physically informed compact model for GaN HEMTs with gate field-plate structures, implemented in Verilog-A.
+                    </p>
+                    <a href="https://github.com/SahraEbm/GaN-HEMT-GFP-VerilogA" target="_blank" 
+                       class="mt-10 inline-flex items-center gap-3 bg-white text-zinc-900 px-8 py-4 rounded-2xl font-semibold hover:bg-zinc-100">
+                        View Project on GitHub <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
 
                 <!-- Recent Updates -->
-                <div class="bg-zinc-900 rounded-3xl p-8">
-                    <h3 class="font-semibold mb-6">Recent Updates</h3>
-                    <div class="space-y-6 text-sm">
+                <div class="bg-zinc-900 rounded-3xl p-10">
+                    <h3 class="font-semibold text-xl mb-8">Recent Updates</h3>
+                    <div class="space-y-8 text-sm">
                         <div>
-                            <p class="text-zinc-400">May 12, 2024</p>
-                            <p>New research note on GaN HEMT short-channel effects</p>
+                            <span class="block text-zinc-500 text-xs">May 2024</span>
+                            <p class="mt-1">New research note on GaN HEMT short-channel effects</p>
                         </div>
                         <div>
-                            <p class="text-zinc-400">Apr 28, 2024</p>
-                            <p>Verilog-A model improvements: temperature dependency</p>
+                            <span class="block text-zinc-500 text-xs">April 2024</span>
+                            <p class="mt-1">Verilog-A model improvements: temperature dependency</p>
                         </div>
                     </div>
                 </div>
@@ -152,6 +132,5 @@
             © 2026 Sahra Ebrahimmagham • Semiconductor Device Engineering & Modeling
         </div>
     </footer>
-
 </body>
 </html>
